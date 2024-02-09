@@ -1,0 +1,45 @@
+html{
+    background-color: black;
+    color: white;
+    line-height: 100px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+li{
+    display: inline-block;
+    width: 25%;
+    font-size: xx-large;
+}
+.navbar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    position:fixed;
+    text-align: center;
+    border-top: 10px;
+}
+.navbar a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.burger{
+    display: none;
+    width: 10%;
+}
+h1, h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px){
+    .navbar{
+        display: none;
+    }
+    .burger{
+        display: inline-block;
+        background-color: white;
+        cursor: pointer;
+    }
+}
