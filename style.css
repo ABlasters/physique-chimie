@@ -20,6 +20,9 @@ li{
     text-align: center;
     border-top: 10px;
 }
+.navbar a{
+    color: white;
+}
 .navbar a:hover{
     color: yellow;
     cursor: pointer;
