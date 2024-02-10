@@ -10,6 +10,9 @@ li{
     width: 25%;
     font-size: xx-large;
 }
+.navlecon{
+    width: 20%;
+}
 .navbar{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     list-style: none;
