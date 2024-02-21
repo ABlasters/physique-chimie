@@ -5,11 +5,13 @@ html{
     letter-spacing: 5px;
     word-spacing: 20px;
 }
+
 li{
     display: inline-block;
     width: 25%;
     font-size: xx-large;
 }
+
 .navlecon{
     width: 50%;
 }
