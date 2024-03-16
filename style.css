@@ -4,17 +4,17 @@ html{
     line-height: 100px;
     letter-spacing: 5px;
     word-spacing: 20px;
+    list-style: none;
+    list-style-type: none;    
 }
-li{
-    display: inline-block;
-    width: 25%;
+ul.navlecon li a{
+    width: 10%;
+    list-style-type: none;
     font-size: xx-large;
+    color: white;
 }
-.navlecon{
-    width: 50%;
-}
-.navlecon a:visited{
-    color: #0066cc;
+ul.navlecon li a:visited{
+    color: white;
 }
 .navbar{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -24,6 +24,11 @@ li{
     width: 100%;
     position: relative;
     text-align: center;
+}
+ul.navbar li{
+    display: inline-block;
+    width: 25%;
+    font-size: xx-large;
 }
 .navbar a{
     color: white;
